@@ -12,3 +12,15 @@ Git has many commands used to manage code versions, collaborate with others, and
 | `git log`                 | Show the commit history                                      |
 | `git diff`                | Show the changes not yet staged                              |
 | `git diff --staged`       | Show the changes that are staged for the next commit         |
+
+
+🌐 Remote Repositories
+
+| Command                       | Description                           |
+| ----------------------------- | ------------------------------------- |
+| `git remote -v`               | Show remote URL(s)                    |
+| `git remote add origin <url>` | Add a remote repository               |
+| `git push`                    | Push commits to the remote repository |
+| `git push -u origin <branch>` | Push and set the upstream branch      |
+| `git pull`                    | Fetch and merge changes from remote   |
+| `git fetch`                   | Fetch latest changes but don’t merge  |
