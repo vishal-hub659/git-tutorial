@@ -24,3 +24,12 @@ Git has many commands used to manage code versions, collaborate with others, and
 | `git push -u origin <branch>` | Push and set the upstream branch      |
 | `git pull`                    | Fetch and merge changes from remote   |
 | `git fetch`                   | Fetch latest changes but don’t merge  |
+
+
+Git connects your local code to online repositories like GitHub, GitLab, or Bitbucket:
+
+Backup your code in the cloud.
+
+Share code with others.
+
+Example: git remote, git push, git fetch.
