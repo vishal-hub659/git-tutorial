@@ -1,4 +1,5 @@
 🛠️ Standard Git Workflow
+
 🧱 1. Initialize or Clone a Repository
 If starting a new project:
 ```bash
@@ -7,6 +8,66 @@ git init
 If working on an existing project from GitHub:
 ```bash
 git clone <repository_url>
+```
+
+🔍 2. Check the Status of Files
+See what's changed or staged:
+```bash
+git status
+```
+
+📂 3. Create a Branch (Optional but Recommended)
+Create and switch to a new branch for a feature or bugfix:
+```bash
+git checkout -b feature-branch-name
+```
+
+📝 4. Make Changes and Stage Them
+After editing files, stage the files you want to commit:
+```bash
+git add <file_name>         # stage one file
+git add .                   # stage all files
+```
+
+💬 5. Commit the Changes
+Save a snapshot of your changes with a message:
+```bash
+git commit -m "Meaningful commit message"
+```
+
+🔄 6. Pull Latest Changes from Remote (Before Pushing)
+Update your branch with the latest remote changes:
+```bash
+git pull origin main        # or whatever branch you're working with
+```
+
+🚀 7. Push the Changes to Remote Repository
+Send your commits to GitHub or another remote:
+```bash
+git push origin feature-branch-name
+```
+
+🔁 8. Create a Pull Request (PR)
+Go to GitHub and open a Pull Request from your branch to the main branch.
+
+✅ 9. Merge the Branch
+After approval/review, merge it:
+
+On GitHub (via PR), or
+
+Locally:
+```bash
+git checkout main
+git pull
+git merge feature-branch-name
+git push origin main
+```
+
+🧹 10. Delete the Feature Branch
+Clean up the old branch:
+```bash
+git branch -d feature-branch-name       # delete local branch
+git push origin --delete feature-branch-name  # delete remote branch
 ```
 
 🚀 Basic Git Commands
