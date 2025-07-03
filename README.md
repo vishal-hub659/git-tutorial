@@ -1,3 +1,13 @@
+🛠️ Standard Git Workflow
+🧱 1. Initialize or Clone a Repository
+If starting a new project:
+```bash
+git init
+```
+If working on an existing project from GitHub:
+```bash
+git clone <repository_url>
+```
 
 🚀 Basic Git Commands
 | Command                   | Description                                                  |
