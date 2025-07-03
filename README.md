@@ -27,7 +27,8 @@ Git has many commands used to manage code versions, collaborate with others, and
 
 
 
-Connect to Remote Repositories 
+Connect to Remote Repositories :
+
 Git connects your local code to online repositories like GitHub, GitLab, or Bitbucket:
 
 Backup your code in the cloud.
